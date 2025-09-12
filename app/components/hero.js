@@ -32,7 +32,7 @@ function hero() {
               " text-4xl font-extrabold ml-8  lg:ml-0 lg:text-7xl"
             }
           >
-            Let's Make{" "}
+            Let&apos;s Make{" "}
             <span className="text-[#24a556] lg:text-7xl">{"{ }"}</span>
             <br /> Softwares with <Cover>Sigmoit</Cover> !
           </h1>

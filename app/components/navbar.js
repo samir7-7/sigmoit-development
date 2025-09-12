@@ -3,6 +3,7 @@ import { FaSearch, FaBars, FaTimes } from "react-icons/fa";
 import React, { useState } from "react";
 import { Rajdhani } from "next/font/google";
 import Image from "next/image";
+import Link from "next/link";
 
 const rajdhani = Rajdhani({
   subsets: ["latin"],
@@ -25,7 +26,10 @@ function Navbar() {
           <ul className="flex gap-10 text-xl">
             <li className="cursor-pointer">Home</li>
             <li className="cursor-pointer">Services</li>
-            <li className="cursor-pointer">About</li>
+            <Link href={"/about"}>
+              <li className="cursor-pointer">About</li>
+            </Link>
+
             <li className="cursor-pointer">Contact</li>
           </ul>
         </div>

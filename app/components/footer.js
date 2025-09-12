@@ -3,7 +3,6 @@ import Stars from "./ui/stars";
 import ShootingStars from "./ui/sooting-stars";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import Image from "next/image";
-
 import { Rajdhani } from "next/font/google";
 
 const rajdhani = Rajdhani({
