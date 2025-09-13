@@ -19,7 +19,12 @@ function Navbar() {
         {/* Logo */}
         <Link href={"/"}>
           <div className="logo">
-            <Image src="/logo.png" alt="Sigmoit logo" width={150} height={50} />
+            <Image
+              src="/sigmoit-logo.svg"
+              alt="Sigmoit logo"
+              width={150}
+              height={50}
+            />
           </div>
         </Link>
 

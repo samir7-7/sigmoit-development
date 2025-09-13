@@ -128,7 +128,7 @@ function route() {
               </div>
             </div>
             <div className="team mb-20 text-center">
-              <h2 className="text-2xl font-extrabold mb-3 mt-10 text-white">
+              <h2 className="text-3xl font-extrabold mb-5 mt-10 text-white">
                 Our Team
               </h2>
               <div className="team-card-wrapper flex flex-wrap justify-center gap-6">
@@ -150,9 +150,9 @@ function route() {
                   <div className="image h-36">
                     <Image
                       src="/members/samir.png"
-                      className="grayscale absolute bottom-0 -right-7 w-[500px] "
+                      className="grayscale absolute bottom-0 -right-7 "
                       width={300}
-                      height={250}
+                      height={350}
                     />
                   </div>
                   <div className="socials z-[888] flex gap-2 w-full justify-start pl-2 text-gray-300 pb-4">
@@ -161,34 +161,34 @@ function route() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <FaLinkedin className="cursor-pointer hover:text-blue-500" />
+                      <FaLinkedin className="cursor-pointer hover:text-[#24a556]" />
                     </a>
                     <a
                       href="https://www.instagram.com/samirnepall/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <FaInstagram className="cursor-pointer hover:text-blue-500" />
+                      <FaInstagram className="cursor-pointer hover:text-[#24a556]" />
                     </a>
                     <a
                       href="https://x.com/samir7nepal"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <FaTwitter className="cursor-pointer hover:text-blue-500" />
+                      <FaTwitter className="cursor-pointer hover:text-[#24a556]" />
                     </a>
                     <a
                       href="https://www.facebook.com/samer.nepal.35"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <FaFacebook className="cursor-pointer hover:text-blue-500" />
+                      <FaFacebook className="cursor-pointer hover:text-[#24a556]" />
                     </a>
                   </div>
                 </div>
                 <div
                   className="team-card bg-[#24a556] w-[14rem] h-[18rem] duration-300 ease-out 
-                hover:scale-105 hover:shadow-xl rounded-sm flex flex-col items-center justify-center relative"
+                hover:shadow-xl rounded-sm flex flex-col items-center justify-center relative"
                   style={{
                     backgroundImage:
                       "radial-gradient(circle at 0% 100%, rgba(255, 221, 51, 0.7) 0%, transparent 70%)",
@@ -216,28 +216,28 @@ function route() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <FaLinkedin className="cursor-pointer hover:text-blue-500" />
+                      <FaLinkedin className="cursor-pointer hover:text-[#24a556]" />
                     </a>
                     <a
                       href="https://www.linkedin.com/in/samir-nepal-927b621b2/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <FaInstagram className="cursor-pointer hover:text-blue-500" />
+                      <FaInstagram className="cursor-pointer hover:text-[#24a556]" />
                     </a>
                     <a
                       href="https://www.linkedin.com/in/samir-nepal-927b621b2/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <FaTwitter className="cursor-pointer hover:text-blue-500" />
+                      <FaTwitter className="cursor-pointer hover:text-[#24a556]" />
                     </a>
                     <a
                       href="https://www.linkedin.com/in/samir-nepal-927b621b2/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <FaFacebook className="cursor-pointer hover:text-blue-500" />
+                      <FaFacebook className="cursor-pointer hover:text-[#24a556]" />
                     </a>
                   </div>
                 </div>

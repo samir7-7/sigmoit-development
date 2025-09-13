@@ -4,6 +4,7 @@ import ShootingStars from "./ui/sooting-stars";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import Image from "next/image";
 import { Rajdhani } from "next/font/google";
+import Link from "next/link";
 
 const rajdhani = Rajdhani({
   subsets: ["latin"],
@@ -36,9 +37,16 @@ function footer() {
         <div className="right-footer flex flex-row lg:flex-col  gap-7">
           <div className="footer-links">
             <ul className="flex flex-col lg:flex-row gap-10">
-              <li>Home</li>
-              <li>Services</li>
-              <li>About</li>
+              <Link href={"/"}>
+                <li className="cursor-pointer">Home</li>
+              </Link>
+              <Link href={"/#services"}>
+                <li className="cursor-pointer">Services</li>
+              </Link>
+
+              <Link href={"/about"}>
+                <li className="cursor-pointer">About</li>
+              </Link>
               <li>Contact</li>
             </ul>
           </div>
