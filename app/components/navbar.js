@@ -14,18 +14,25 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="w-[90vw] rounded-xl fixed bg-white px-6 py-5 justify-self-center mt-6 shadow-lg z-40">
+    <div className="w-[90vw] rounded-xl fixed bg-white px-6 py-5 justify-self-center mt-6 shadow-lg z-[9999]">
       <nav className="flex justify-between items-center">
         {/* Logo */}
-        <div className="logo">
-          <Image src="/logo.png" alt="Sigmoit logo" width={150} height={50} />
-        </div>
+        <Link href={"/"}>
+          <div className="logo">
+            <Image src="/logo.png" alt="Sigmoit logo" width={150} height={50} />
+          </div>
+        </Link>
 
         {/* Links - hidden on mobile */}
         <div className={`${rajdhani.className} hidden md:block`}>
           <ul className="flex gap-10 text-xl">
-            <li className="cursor-pointer">Home</li>
-            <li className="cursor-pointer">Services</li>
+            <Link href={"/"}>
+              <li className="cursor-pointer">Home</li>
+            </Link>
+            <Link href={"/#services"}>
+              <li className="cursor-pointer">Services</li>
+            </Link>
+
             <Link href={"/about"}>
               <li className="cursor-pointer">About</li>
             </Link>
@@ -55,9 +62,17 @@ function Navbar() {
       {isOpen && (
         <div className={`${rajdhani.className} mt-4 md:hidden`}>
           <ul className="flex flex-col gap-4 text-lg">
-            <li className="cursor-pointer">Home</li>
-            <li className="cursor-pointer">Services</li>
-            <li className="cursor-pointer">About</li>
+            <Link href={"/"}>
+              <li className="cursor-pointer">Home</li>
+            </Link>
+            <Link href={"/#services"}>
+              <li className="cursor-pointer">Services</li>
+            </Link>
+
+            <Link href={"/about"}>
+              <li className="cursor-pointer">About</li>
+            </Link>
+
             <li className="cursor-pointer">Contact</li>
             <li>
               <FaSearch className="text-black text-xl cursor-pointer mt-2" />

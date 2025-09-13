@@ -17,6 +17,7 @@ export function About() {
         rajdhani.className +
         " about w-[100vw] h-fit py-10 flex mt-10 flex-col justify-center items-center justify-self-center bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] px-10"
       }
+      id="services"
     >
       <h1
         className={
