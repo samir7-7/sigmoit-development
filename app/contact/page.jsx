@@ -64,7 +64,6 @@ export default function ContactForm() {
         setFormData({
           name: "",
           email: "",
-          country: "",
           whatsapp: "",
           subject: "",
           message: "",
