@@ -22,7 +22,7 @@ function footer() {
       <div className="footer-container w-[90%] text-white flex flex-col lg:flex-row justify-between items-center gap-10 p-2 lg:p-10">
         <div className="left-footer flex flex-col gap-5 w-[90%] lg:w-[40%]">
           <Image
-            src="/logo-white.png"
+            src="/sigmoit-logo-white.svg"
             alt="Sigmoit Logo"
             width={200}
             height={70}

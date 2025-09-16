@@ -41,8 +41,9 @@ function Navbar() {
             <Link href={"/about"}>
               <li className="cursor-pointer">About</li>
             </Link>
-
-            <li className="cursor-pointer">Contact</li>
+            <Link href={"/contact"}>
+              <li className="cursor-pointer">Contact</li>
+            </Link>
           </ul>
         </div>
 

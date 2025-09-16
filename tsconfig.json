@@ -28,7 +28,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "app/components/ui/carousel.jsx"  ],
+, "app/components/ui/carousel.jsx", "app/contact/page.jsx"  ],
   "exclude": [
     "node_modules"
   ]
